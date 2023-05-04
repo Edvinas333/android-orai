@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Orai</string>
+    <string name="login_username">Vartotojo vardas</string>
+    <string name="login_password">Slaptažodis</string>
+    <string name="login_button">Prisijungti</string>
+
+
+</resources>
