@@ -6,26 +6,24 @@
     android:background="@color/black_light"
     android:orientation="vertical"
     android:padding="10dp"
-    tools:context=".LoginActivity">
+    tools:context=".RegisterActivity">
 
     <Space
         android:layout_width="match_parent"
         android:layout_height="40dp" />
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="251dp"
-        android:src="@drawable/logo" />
-
     <TextView
         android:layout_width="394dp"
         android:layout_height="41dp"
-        android:text="@string/app_name"
+        android:text="@string/register_name"
         android:textAlignment="center"
         android:textAllCaps="true"
         android:textColor="@color/white"
         android:textSize="25dp"
         android:textStyle="bold" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
 
     <TextView
         android:layout_width="match_parent"
@@ -48,8 +46,25 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/login_password"
+        android:text="@string/register_email"
 
+        />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:inputType="textEmailAddress"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login_password"
         />
 
     <EditText
@@ -59,16 +74,6 @@
         android:textColor="@color/white"
         android:inputType="textPassword"/>
 
-    <Space
-        android:layout_width="match_parent"
-        android:layout_height="30dp" />
-
-  <Button
-      android:id="@+id/login"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:text="@string/login_button"
-      />
 
     <Space
         android:layout_width="match_parent"
