@@ -12,6 +12,14 @@
     <string name="register_email">Email</string>
     <string name="register_email_error">Klaidingai ivestas Email</string>
 
+    <string name="add_weather">Pridėti naują įrašą</string>
+    <string name="main_edit_button">Redaguoti</string>
+    <string name="main_delete_button">Trinti</string>
+
+    <string name="edit_popuop_country">Įveskite valstybės pavadinimą</string>
+    <string name="edit_popuop_degrees">Įveskite laipsnius</string>
+    <string name="edit_popuop_save_button">Išsaugoti</string>
+
 
 
 </resources>

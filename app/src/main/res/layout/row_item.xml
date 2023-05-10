@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_light">
+
+
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="1"
+        android:layout_columnWeight="1"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/blue"
+        android:textSize="32dp"
+        android:text="id"
+        />
+
+    <TextView
+        android:id="@+id/country"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:layout_columnWeight="1"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/id"
+        android:textColor="@color/green"
+        android:textSize="20dp"
+        android:text="country"
+        />
+
+    <TextView
+        android:id="@+id/degree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="2"
+        android:layout_columnWeight="1"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/country"
+        android:textColor="@color/red"
+        android:textSize="20dp"
+        android:text="degrees"
+        />
+
+    <Button
+        android:id="@+id/edit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_toRightOf="@id/id"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:text="@string/main_edit_button"
+        />
+    <Button
+        android:id="@+id/delete_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_toRightOf="@id/edit_button"
+        android:textColor="@color/red"
+        android:textSize="20dp"
+        android:text="@string/main_delete_button"
+        />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/popup"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/black"
+    >
+
+    <EditText
+        android:id="@+id/edit_country"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="@string/edit_popuop_country"
+        />
+
+    <EditText
+        android:id="@+id/edit_degrees"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_country"
+        android:layout_marginTop="10dp"
+        android:inputType="numberDecimal"
+        android:hint="@string/edit_popuop_degrees"
+        />
+
+    <Button
+        android:id="@+id/edit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_degrees"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="60dp"
+        android:hint="@string/edit_popuop_save_button"
+        />
+
+
+
+</RelativeLayout>
