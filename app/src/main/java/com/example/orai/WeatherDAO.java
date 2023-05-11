@@ -14,7 +14,7 @@ import java.util.List;
 public class WeatherDAO extends SQLiteOpenHelper {
 
     private static final int DATABASE_VERSION = 1;
-    private static final String DATABASE_NAME = "weather_data";
+    private static final String DATABASE_NAME = "weather_data.db";
     public static final String TABLE_NAME = "weathers";
 
     public static final String KEY_ID = "id";
